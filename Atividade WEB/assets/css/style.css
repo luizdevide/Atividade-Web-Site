@@ -1,0 +1,403 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+nav{
+	margin-top: 0;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	background-color: #0D353F;
+	color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	height: 58px;
+	z-index: 999999;
+}
+
+a{
+	font-family: 'Droid Serif', serif;
+	text-decoration: none;
+	color: white;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.container{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+li{
+	font-size: 25px;
+	display: inline;
+	padding: 18px;
+	color: white;
+}
+
+#about-us{
+	padding-top: 80px;
+	padding-bottom: 35px;
+	background-color: #B0BEA9;
+	color: #0D353F;
+	float: left;
+	width: 100%;
+}
+
+#about-us #in-blocks{
+	position: relative;
+	float: left;
+}
+
+.separator:after {
+    background-color: #B2BD7E;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 31%;
+}
+
+.separator-contact:after{
+	background-color: #B2BD7E;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 8%;
+    margin-bottom: 3%;
+}
+
+.separator-menu{
+	background-color: #B2BD7E;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 9%;
+}
+
+#about-us-h1{
+	font-family: 'Raleway-black', sans-serif;
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	font-size: 105px;
+	margin-top: 0;
+	font-weight: 900;
+}
+
+
+#about-us-h2{
+	font-family: 'Droid Serif', serif;
+	font-weight: 100;
+	margin: 3% 25% 0 25%;
+	width: 50%;
+	font-size: 60px;
+	color: white;
+}
+
+#about-us-p{
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	margin-bottom: 5%;
+}
+
+#block{
+	padding-top: 50px;
+	display: inline-block;
+}
+
+.blocks{
+	font-size: 15px;
+	background-image: url('../images/bg_02.png');
+	max-width: 22%;
+	max-height: 330px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	height: auto;
+	color: white;
+}
+
+#menu-contact{
+	background-image: url('../images/bg_01.png');
+	color: white;
+	margin-top: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#menu-contact-h1{
+	margin-right: 25%;
+	margin-left: 25%;
+	font-size: 45px;
+	max-width: 50%;
+}
+
+#menu-contact-p{
+	margin-left: 37%;
+	margin-right: 37%;
+	width: 26%;
+	color: #B0BEA9;
+	padding-bottom: 15px;
+}
+
+#products{
+
+	background-color: #B0BEA9;
+	color: #0D353F;
+	max-height: auto;
+	padding-bottom: 30px;
+}
+
+#h1-product{
+	font-family: 'Raleway-black', sans-serif;
+	margin: 0 25% 5% 25%;
+	width: 50%;
+	font-weight: 900;
+	font-size: 105px;
+	color: white;
+}
+
+#h2-product{
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+#p-product{
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	margin-bottom: 5%;
+}
+
+#product1{
+	float: left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 17.5%;
+}
+
+#product2{
+	float:  left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 2.5%;
+}
+
+#product3{
+	float:  left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 2.5%;
+	margin-right: 17.5%;
+}
+
+#product4{
+	float: left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 17.5%;
+	margin-top: 2%;
+}
+
+#product5{
+	float:  left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 2.5%;
+	margin-top: 2%;
+}
+
+#product6{
+	float:  left;
+	background-color: white;
+	max-width: 20%;
+	max-height: 35%;
+	margin-left: 2.5%;
+	margin-right: 17.5%;
+	margin-top: 2%;
+}
+
+#product-button{
+	color: orange;
+	background-color: white;
+	width: 40%;
+	height: 50px;
+	margin-bottom: 5%;
+	border-radius: 25px;
+	outline: none;
+	border-color: orange;
+	border-style: solid;
+}
+
+#imgproduto{
+	margin-top: 4%;
+	max-width: 90%;
+}
+
+#news{
+	background-color: #F1F7EE;
+	padding-bottom: 30px;
+	padding-top: 3%;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#h1-news{
+	font-family: 'Raleway-black', sans-serif;
+	margin: 0 27.5% 3% 27.5%;
+	width: 45%;
+	font-size: 105px;
+	color: #0D353F;
+}
+
+#h2-news{
+	font-family: 'Droid Serif', serif;
+	margin: 0 26% 0 34%;
+	width: 40%;
+	color: #B0BEA9;
+	font-size: 40px;
+}
+
+#dates-left{
+	font-family: 'Raleway-black', sans-serif;
+	float: left;
+	margin-left: 15%;
+	margin-top: 2%;
+	max-width: 30%;
+}
+
+#dates-right{
+	font-family: 'Raleway-black', sans-serif;
+	float: left;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-right: 15%;
+	max-width: 30%;
+}
+
+#contact{
+	background-image: url('../images/bg_02.png');
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+#h1-contact{
+	font-family: 'Raleway-black', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 1%;
+}
+
+footer{
+		background-color: #B0BEA9;
+		margin-top: 0;
+		position: relative;
+		float: left;
+		width: 100%;
+}
+
+.detalhe{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+}
+
+input::placeholder{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	padding-left: 20px;
+}
+
+textarea::placeholder{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	padding-left: 20px;
+}
+
+input{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	width: 40%;
+	height: 35px;
+	font-size: 1em;
+	font-weight: 900;
+	margin: auto 30% 20px 30%;
+	padding-bottom: 10px;
+	border-radius: 12rem;
+	text-transform: uppercase;
+	outline: none;
+	background-color: #F1F7EE;
+	border-style: none;
+}
+
+select{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	width: 40%;
+	height: 35px;
+	font-size: 1em;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 12rem;
+	text-transform: uppercase;
+	outline: none;
+	background-color: #F1F7EE;
+	padding-left: 20px;
+	border-style: none;
+}
+
+textarea{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	width: 40%;
+	height: 35px;
+	font-size: 1em;
+	font-weight: 900;
+	margin: auto 30% 20px 30%;
+	border-radius: 12rem;
+	outline: none;
+	background-color: #F1F7EE;
+	border-style: none;
+}
+
+.contact-button{
+	font-family: 'Raleway-black', sans-serif;
+	color: #0D353F;
+	background-color: orange;
+	border-radius: 12rem;
+	width: 8%;
+	height: 45px;
+	font-weight: 900;
+	outline: none;
+	margin-top: 2%;
+	border-style: none;
+}
+
+button:hover{
+	background-color: yellow;
+}
